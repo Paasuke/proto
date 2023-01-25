@@ -1,0 +1,28 @@
+/* Add to card component.
+   A reusable utility for any card that is clickable as a whole */
+.card-clickable:hover {
+  cursor: pointer;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+}
+
+/* Add to card component.
+   A feature that highlights links within card with a blue color when the card is hovered */
+@media (min-width: 1200px)  {
+  .veera-card.veera-card-highlight-links-on-hover a:not(.no-decoration) { color: #5d6071 !important; opacity: 0.66; }
+  .veera-card.veera-card-highlight-links-on-hover:hover a:not(.no-decoration) { color: #005aa3 !important; opacity: 1; }  /* link color */
+}
+
+/* Add to modal component.
+   A feature that enables vertically centering a card.
+   This exists in latest version of bootstrap 4 so a version update could also help  */
+.veera-modal-dialog-centered.show {
+  display: flex !important;
+  align-items: center;
+  min-height: calc(100% - (0.5rem * 2));
+}
+
+/* Add to VeeraDropdown component.
+   Highlight invalid state for a veera select, use danger color */
+.is-invalid .veera-dropdown-container .veera-select {
+  border-color: #dc3545;
+}
