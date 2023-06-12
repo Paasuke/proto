@@ -1,1 +1,3 @@
-Proto kood tuleb siia
+# Kokkuehitatud prototüüp
+
+Paistab välja siit: https://paasuke.github.io/proto/
